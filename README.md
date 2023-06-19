@@ -1,6 +1,4 @@
-# ELSST-Group
-# DECAPITALIZE ELSST
-
+# Truecasing German ELSST terms
 The ELSST Thesaurus terms are currently written in all caps but need to be transformed to regular German capitalization
 
 ## Files and folders
