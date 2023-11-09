@@ -9,10 +9,10 @@ The ELSST Thesaurus terms are currently written in all caps but need to be trans
 ### Output files
 
 - 'GER_ELSST_lowercase.xlsx' is everything converted to lowercase
-- 'GER_ELSST_definitions.xlsx' has the first string of the notes and definitions capitalized (as these are full sentences rather than individual terms or phrases)
+- 'GER_ELSST_firstword.xlsx' has the first string character in all fields capitalized
 - 'GER_ELSST_targetfile1.xlsx': all strings in the nouns list and not in the verbs list are capitalized
 - 'GER_ELSST_targetfile2.xlsx': all strings ending in -heit, -keit, -ung, etc. (which are always nouns) are capitalized
-- 'GER_ELSST_targetfile3.xlsx': In this step, all strings are capitalized which end in a word from the list of nouns (and not in the list of verbs). As you can see this works fairly well for the labels, but produces many false-positives in the definitions and scope notes. For example 'politischen' is wrongly capitalized because it contains 'Tischen'. We should consider to exclude the notes and definitions in last step. 
+- 'GER_ELSST_targetfile3.xlsx': The Hanover Tagger is used to identify additional nouns (esp. compounds) and capitalize them. 
 
 ## Binder notebook
 
